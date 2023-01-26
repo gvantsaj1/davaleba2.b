@@ -22,10 +22,17 @@ body{
     border-radius: 8px;
     margin: 24px;
 }
+.kubisphoto:hover{
+    opacity: 0.5;
+}
 .equ{
     font-size: 22px;
     margin-left: 24px;
     color: #ffffff;
+    cursor: pointer;
+}
+.equ:hover{
+    color: #00FFF8;
 }
 .ourequ{
     margin-top: 16px;
@@ -33,7 +40,10 @@ body{
     margin-right: 24px;
     font-size: 18px;
     color: #8BACD9;
+    cursor: pointer;
 }
+
+
 .flexelements{
     display: flex;
     margin-left: 24px;
